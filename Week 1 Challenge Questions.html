@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge Questions for Week 1</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Example of NuCamp student response to Week 1 Challenge Questions">
+<body>
+    <h1>Challenge Questions for Week 1</h1>
+    <p>Submitted by Katie Christine Rhodes, 1/5/2022.</p>
+    <p>Caveat 1: I wanted to put my answers into an html file to try out the code as I learned it, but it's messy. I look forward to learning ALL about doing it right.</p>
+    Caveat 2: I use a lot of words! It takes time and effort to clean up my stream-of-consciousness approach if I need to be concise.
+        <h2>Question 1</h2>
+            <h3>Use an "< a >" element to open the link in a new browser tab.</h3>
+                <p> In the element, place an attribute "target" set to "_blank" before the href link. For example, this link will open in a new tab: <a target="_blank" href="https://www.blueletterbible.org/nasb95/jhn/3/1/t_conc_1000016">John 3:16</a>  </p>
+                <p>Reference: <a target="_blank" href="https://www.geeksforgeeks.org/how-to-open-a-hyperlink-in-another-window-or-tab-in-html/">GeeksforGeeks.org</a></p>
+
+        <h2>Question 2</h2>
+            <h3>Use the "lang" attribute to present a section in French and a section in Japanese.</h3>
+                <p>The basic answer seems to be: Declare the main language in the html element, and then toggle in and out of other languages by wrapping their declaration inline using the span or div element.</p> 
+                <p>Get the definition for the language from this list at w3schools.com: <a target="_blank" href="https://www.w3schools.com/tags/ref_language_codes.asp">ISO Language Codes</a> </p>
+                <section>
+                    <p><span lang="fr">Testing! Will this be presented in French?</span> Oh, how sad, declaring "lang='fr'" doesn't actually <em>translate</em> what I write in the html file. =:^o</p>
+                    So, let's just paste in some French, thanks to Microsoft's translator, coding the change by wrapping "< span lang="fr" >" and "< / span >" around the phrase in the paragraph element: </p>
+                    <span lang="fr">"Test! J'aime coder."</span>
+                    <p>And the same phrase in Japanese characters, coding the change with "< span lang="ja" >":</p> 
+                    <span lang="ja">テスティング！私はコードが好きです</span>
+                </section>
+                <p>References: </p>
+                <ol>
+                    <li>This was the go-to referenced by the others: <a target="_blank" href="https://www.w3.org/International/questions/qa-html-language-declarations">W3.org/International/questions/qa-html-language-declarations</a></li>
+                    <li>This <a target="_blank" href="https://www.w3.org/International/questions/qa-choosing-language-tags">W3.org article</a> was way over my head</li>
+                    <li>This article in <a target="_blank" href="https://stackoverflow.com/questions/7076837/what-html-lang-attribute-value-should-i-use-for-a-mixed-language-page">Stackoverflow</a> was more helpful, but apparently, the code may need to be different depending on context.</li>
+                </ol>
+        <h2>Question 3</h2>
+            <h3>How is "meta name=description" used?</h3>
+                <p>According to W3Schools, this expression is used to "define a description of your web page." Without context, I'm not sure how helpful that is.</p>
+                <p>Metatags.org further clarifies that search engines display the content of the description as a "mini-ad" in search results. Now that's important to know!</p>
+                <p>References: 
+                    <ol>
+                        <li><a target="_blank" href="https://www.w3schools.com/html/html_head.asp">W3Schools: The Head Element</a>
+                        </li>
+                        <li><a target="_blank" href="https://www.metatags.org/all-meta-tags-overview/the-important-meta-tags/meta-name-description/">Metatags.org</a>
+                        </li>
+                    </ol>
+</body>
+</head>
+</html>
